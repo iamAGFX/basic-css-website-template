@@ -1,0 +1,114 @@
+body{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+.wrapper{
+    width:95%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left:auto;
+    margin-right: auto;
+    display:grid;
+    grid-template-rows: 50px 300px 300px 300px 500px 100px;
+    grid-template-columns: repeat(4, 1fr);
+    gap:10px;
+    padding:10px;
+    box-sizing: border-box;
+}
+
+.wrapper > div{
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding:10px;
+    border:2px;
+}
+  
+.header{
+    grid-column:1/-1;
+}
+.big-container{
+    grid-row:2/4;
+    grid-column: span 3;
+    background-image: url("photo.jpeg");
+    background-size:     cover;
+    background-position: center center; 
+    color:white;
+    font-size: large;
+}
+.small-container{
+    text-align: center;
+}
+.box{
+    grid-column: span 1;
+    text-align: center;
+    display:grid;
+    align-content: center;
+}
+.wide-container{
+    grid-column:span 4;
+}
+.footer{
+    display: grid;
+    align-items: center;
+    grid-column:1/-1;
+    grid-row: 6/6;
+    text-align: center;
+}
+
+.image{
+    padding: 20px;
+    float: left;
+}
+
+.center{
+    text-align: center;
+}
+.vertical-center {
+    padding: 200px 50px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline;
+  }
+li {
+    float:left;
+  }
+li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    padding: 5px 140px;
+    text-decoration: none;
+  }
+li a:hover {
+    background-color: rgb(244, 223, 146);
+}
+
+.button1 {
+    border-radius: 8px;
+    border: solid white;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.button2 {
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+body {
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
